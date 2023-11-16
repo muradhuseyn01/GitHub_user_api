@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub user api</title>
+    <link rel="stylesheet" href="./css/color.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cabin:wght@600&family=Courgette&family=Courier+Prime&family=Dancing+Script:wght@500&family=Indie+Flower&family=Lilita+One&family=Lobster&family=Outfit:wght@700&family=Raleway:wght@500&family=Roboto:ital,wght@0,400;0,700;1,300&family=Space+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="container__search">
+        <section class="container__search-title">
+            <h2>devfinder</h2>
+            <div class="container__search-title-mode">
+                <span>DARK</span>
+                <img src="./assets/icons/moon.svg" alt="moon"> 
+            </div>
+        </section>
+
+        <div class="container__search-username">
+            <label for="txtinput">
+                <img src="./assets/icons/Shape 2.svg" alt="search">
+                <input type="text" name="text" id="txtinput" class="username-input"
+                    placeholder="Search GitHub username…">
+            </label>
+            <p class="errormessage"></p>
+            <button type="submit" class="container__search-username-button">Search</button>
+        </div>
+    </header>
+
+    <main class="container__info">
+        <div class="container__info-bio">
+        <div class='container__info-bio-img'>
+            <img src="./assets/image/Bitmap.png" alt="profil">
+        </div>
+
+        <div class="container__info-bio-username">
+            <h3>The Octocat </h3>
+            <p>@octocat</p>
+            <p>This profile has no bio</p>
+        </div>
+        <div class="container__info-bio-date">
+            <p></p>
+        </div> 
+        </div>
+        
+
+        <div class="container__info-reyting">
+            <div class="container__info-reyting-one">
+                <p>Repos</p>
+                <span>8</span>
+            </div>
+            <div class="container__info-reyting-two">
+                <p>Followers</p>
+                <span>3938</span>
+            </div>
+            <div class="container__info-reyting-three">
+                <p>Following</p>
+                <span>9</span>
+            </div>
+
+        </div>
+
+        <div class="container__info-socials">
+            <div class="container__info-socials-url">
+                <img src="./assets/icons/location.svg" alt="">
+                <a href="#">San Francisco</a>
+            </div>
+            <div class="container__info-socials-url">
+                <img src="./assets/icons/twitter.svg" alt="">
+                <a href="#">Not Available</a>
+            </div>
+            <div class="container__info-socials-url">
+                <img src="./assets/icons/002-url.svg" alt="">
+                <a href="#">https://github.blog</a>
+            </div>
+            <div class="container__info-socials-url">
+                <img src="./assets/icons/001-office-building.svg" alt="">
+                <a href="#">@github</a>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
